@@ -1,14 +1,16 @@
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=<?php bloginfo('description'); ?>
+  <meta name="description" content=<?php bloginfo('description'); ?>>
   <title><?php echo esc_html(wp_get_document_title()); ?></title>
   <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/favicon.ico" />
   <script src="https://kit.fontawesome.com/cafd1deda7.js" crossorigin="anonymous"></script>
   <?php wp_head(); ?>
 </head>
+
 
 <body <?php body_class(); ?>>
   <div class="container">
