@@ -15,7 +15,6 @@
 <body <?php body_class(); ?>>
   <div class="container">
     <header class="header">
-<p>gitdiff</p>
       <!-- ここからモバイルメニュー -->
       <div class="mobile-menu__btn">
         <span></span>
