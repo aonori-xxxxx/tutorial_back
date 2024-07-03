@@ -13,6 +13,8 @@
 
 
 <body <?php body_class(); ?>>
+<body <?php body_class(); ?>>
+  <p>git commit--amend</p>
   <div class="container">
     <header class="header">
       <!-- ここからモバイルメニュー -->
